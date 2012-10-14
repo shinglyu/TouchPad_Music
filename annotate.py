@@ -4,7 +4,7 @@ import subprocess
 import os 
 #infname = './test.mp3';
 #outfname = './test.txt';
-period = 100; # in ms
+period = 1; # in ms
 cmd = ['synclient',  '-m' , str(period)];
 #cmd = ['synclient']; 
 if DEBUG: print(cmd);
@@ -19,8 +19,8 @@ while (key != 'q'):
    if DEBUG: print(key);
    p.kill();
    fileNo+=1;
-   if (key == 'q'):
-      os.remove(outfname);
+   #if (key == 'q'):
+   #   os.remove(outfname);
       
 
 #if (key == ')
