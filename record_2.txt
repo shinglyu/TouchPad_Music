@@ -1,2 +1,0 @@
-    time     x    y   z f  w  l r u d m     multi  gl gm gr gdx gdy
-   0.000  2911 3683   0 0  0  0 0 0 0 0  00000000

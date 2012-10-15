@@ -1,6 +1,0 @@
-record_0.txt
-record_1.txt
-record_2.txt
-record_3.txt
-record_4.txt
-record_5.txt

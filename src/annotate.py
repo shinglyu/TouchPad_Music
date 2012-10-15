@@ -2,8 +2,10 @@
 DEBUG = False;
 import subprocess
 import os 
+import process
 #infname = './test.mp3';
 #outfname = './test.txt';
+outPath = '../records/';
 period = 1; # in ms
 cmd = ['synclient',  '-m' , str(period)];
 #cmd = ['synclient']; 
@@ -12,7 +14,7 @@ fileNo = 0;
 key = '';
 while (key != 'q'):
 
-   outfname = './record_' + str(fileNo) + '.txt';
+   outfname = outPath + 'record_' + str(fileNo) + '.txt';
    with open(outfname, 'w') as outfile:
       p = subprocess.Popen(cmd, stdout = outfile);
    key = raw_input('Press ENTER to end current recording and continue. Press q-Enter to quit.');
@@ -25,3 +27,4 @@ while (key != 'q'):
 
 #if (key == ')
 #subprocess.call(['mplayer', infname]);
+process.process(outPath)
