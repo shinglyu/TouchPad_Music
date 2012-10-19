@@ -19,7 +19,7 @@ function nmat = noEnvelopeAnalysis(filePath)
          queue(1) = [];
       end
    end   
-   disp(nmat)
+   %disp(nmat)
       
    c = {'r', 'm', 'b'};
    for (t = 1:size(nmat, 1))

@@ -1,4 +1,4 @@
-function apply2score(nmat, score)
+function outScore = apply2score(nmat, score, scoreName)
    assert(size(nmat, 2) == 4);
    N_VELOCITIES     = 1;
    N_ONSET_SEC      = 2;
@@ -11,12 +11,13 @@ function apply2score(nmat, score)
    S_VELOCITIES     = 5;
    S_ONSET_SEC      = 6;
    S_DURATION_SEC   = 7;
-   if (size(nmat, 1) != size(score, 1))
-      warning('The recording doesn\'t match the length of the score, please re-record it.' )
+   if (size(nmat, 1) ~= size(score, 1))
+      warning(['The recording length(' num2str(size(nmat, 1)) ') not matching the score length (' num2str(size(score, 1)) '), please re-record it.'] )
+      outScore = [];
    else 
-      score(:, S_VELOCITIES) = namt(:, N_VELOCITIES);
-      score(:, S_ONSET_SEC) = namt(:, N_ONSET_SEC);
-      score(:, S_DURATION_SEC) = namt(:, N_DURATION_SEC);
+      score(:, S_VELOCITIES) = nmat(:, N_VELOCITIES);
+      score(:, S_ONSET_SEC) = nmat(:, N_ONSET_SEC);
+      score(:, S_DURATION_SEC) = nmat(:, N_DURATION_SEC);
+      outScore = score;
    end
-   %TODO: write midi
 end

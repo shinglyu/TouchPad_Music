@@ -1,6 +1,6 @@
 #!/usr/bin/python
-#DEBUG = True;
-DEBUG = False;
+DEBUG = True;
+#DEBUG = False;
 import os
 #infname = './test.mp3';
 #outfname = './test.txt';
@@ -25,6 +25,7 @@ def process(path):
                      (time, x, y, z, f, w, l, r, u, d, m, multi) = line.split();
                   else:
                      print('unknown line format');
+                     continue;
                   if (time == 'time'): continue;
                   else:
                      outFile.write(time+ ',' + z + ',' + f + '\n');
