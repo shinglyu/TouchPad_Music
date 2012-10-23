@@ -2,6 +2,7 @@
 DEBUG = True;
 #DEBUG = False;
 import os
+import fnmatch 
 #infname = './test.mp3';
 #outfname = './test.txt';
 def process(path):
@@ -10,6 +11,7 @@ def process(path):
    #   for filename in listf: 
       for filename in os.listdir(path): 
          #filename = filename.strip('\n');
+         if not fnmatch.fnmatch(filename, '*.txt'): continue;
          filename = path + filename;
          if DEBUG: print(filename);
          with open(filename, 'r') as tapFile:
