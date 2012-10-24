@@ -23,7 +23,8 @@ def preProcess(path):
             with open(outFilename, 'w') as outFile:
                for line in tapFile: 
                   if DEBUG: print(line.split());
-                  if len(line.split()) == 17: (time, x, y, z, f, w, l, r, u, d, m, multi, gl, gm, gr, gdx, gdy) = line.split(); elif len(line.split()) == 12:
+                  if len(line.split()) == 17: (time, x, y, z, f, w, l, r, u, d, m, multi, gl, gm, gr, gdx, gdy) = line.split(); 
+                  elif len(line.split()) == 12:
                      (time, x, y, z, f, w, l, r, u, d, m, multi) = line.split();
                   else:
                      print('unknown line format');
@@ -39,7 +40,8 @@ def preProcess(path):
 def getRecLength(filename):
    recFile = settings.getProcessedName(filename);
    with open(recFile, 'r') as rec:
-      noteQueue = Queue.Queue();
+      #noteQueue = Queue.Queue();
+      noteStack = [];
       length = 0;
       prevMulti = 0;
       for line in rec:
@@ -47,9 +49,11 @@ def getRecLength(filename):
          (time, z, multiStr) = line.strip().split(',');
          multi = int(multiStr)
          if (multi - prevMulti > 0):
-            noteQueue.put(time);
+            noteStack.append(time);
+            if (settings.DEBUG):print(len(noteStack));
          elif (multi - prevMulti < 0):
-            noteQueue.get();
+            noteStack.pop();
+            if (settings.DEBUG):print(len(noteStack));
             length += 1;
          prevMulti = multi;
    return length;
