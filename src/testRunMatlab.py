@@ -1,3 +1,3 @@
-import runMatlab
-runMatlab.runMatlab();
+import makeMidi
+makeMidi.makeMidi();
 

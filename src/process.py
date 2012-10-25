@@ -4,21 +4,24 @@ DEBUG = True;
 import os
 import fnmatch 
 import settings 
-import Queue
+#import Queue
+import subprocess 
 #infname = './test.mp3';
-#outfname = './test.txt';
-def preProcess(path):
+#outfname = './test.txt'; 
+def preProcess(filename):
    #listfname = './list.txt';
    #with open(listfname, 'r') as listf:
    #   for filename in listf: 
-      for filename in os.listdir(path): 
+      #for filename in os.listdir(path): 
          #filename = filename.strip('\n');
-         if not fnmatch.fnmatch(filename, '*.txt'): continue;
-         filename = path + filename;
-         if DEBUG: print(filename);
-         with open(filename, 'r') as tapFile:
-            #filename_noext = os.path.splitext(filename)[0];
-            outFilename = filename + '.processed.csv'
+         #if not fnmatch.fnmatch(filename, '*.txt'): continue;
+         #filename = path + filename;
+         recName = settings.getRecName(filename);
+         if DEBUG: print(recName);
+         with open(recName, 'r') as tapFile:
+            #recName_noext = os.path.splitext(recName)[0];
+            #outFilename = filename + '.processed.csv'
+            outFilename = settings.getProcessedName(filename);
 
             with open(outFilename, 'w') as outFile:
                for line in tapFile: 
@@ -58,8 +61,9 @@ def getRecLength(filename):
          prevMulti = multi;
    return length;
 
-def runMatlab():
-   cmd = ['bash', './makeMidi.sh'];
+def makeMidi(filename):
+   #cmd = ['bash', './makeMidi.sh'];
+   cmd = ['/usr/local/MATLAB/R2010b/bin/matlab', '-nosplash', '-nodesktop', '-nodisplay', '-r', 'makeMidi(\'{fname}\'); quit;'.format(fname = filename)];
    if settings.DEBUG: print(cmd)
    p = subprocess.Popen(cmd);
 
