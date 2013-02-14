@@ -3,5 +3,6 @@ main file: recordExprPref.py
 How to turn on SHMConfig?
    sudo vim /usr/share/X11/xorg.conf.d/50-synaptics.conf
    add 'Option "SHMConfig" "on"' to Identifier "touchpad catchall" section.
-
-   use synclient -m <time in ms> to see touchpad activityc
+   reboot
+   use synclient -m <time in ms> to see touchpad activity
+   

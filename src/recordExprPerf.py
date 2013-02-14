@@ -11,10 +11,10 @@ def recordAll(score, args, counter = 1): #score needs to be flat
    else:
       print("[INFO] Now recording phrase no." + str(counter))
       record.playStream(score); #provide stop button
-      recLogFilename = settings.getRecLogFilename(args.scoreFilename + str(counter))
+      recLogFilename = settings.getRecLogFilename(args.scoreFilename +'.'+ str(counter))
       record.record(recLogFilename);
       perf = musicGenerator.generatePerf(score, recLogFilename)
-      musicGenerator.savePerf2File(perf, arg.outputFilename + str(counter))
+      musicGenerator.savePerf2File(perf, args.outputFilename + '.'+str(counter))
       scoreTail= score[len(perf):]
       recordAll(scoreTail, args, counter+1)
 

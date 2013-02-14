@@ -11,6 +11,7 @@ def playStream(s):
    sp.play()
 def record(recLogFilename):
    period = 1; # in ms
+   print("[INFO] Remember to turn on SHMConfig for the touchpad. See README for detail.")
    cmd = ['synclient',  '-m' , str(period)];
    settings.printDebug(cmd)
    key = 'r';
