@@ -1,3 +1,0 @@
-import makeMidi
-makeMidi.makeMidi();
-
