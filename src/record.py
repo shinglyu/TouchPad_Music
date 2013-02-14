@@ -1,7 +1,6 @@
 #!/usr/bin/python
 import subprocess
 import os 
-import process
 import settings 
 import music21 
 #infname = './test.mp3';

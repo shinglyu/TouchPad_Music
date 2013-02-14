@@ -1,8 +1,22 @@
-main file: recordExprPref.py
+Record Expressive Interpretation by Tapping
+by: Shing Lyu
+===========================================
+Required Package:
+   - python 2.7
+   - music21-1.3.0
+   - Hardware: Synpatic touchpad
+   - synclient
 
-How to turn on SHMConfig?
-   sudo vim /usr/share/X11/xorg.conf.d/50-synaptics.conf
-   add 'Option "SHMConfig" "on"' to Identifier "touchpad catchall" section.
-   reboot
-   use synclient -m <time in ms> to see touchpad activity
+
+Usage:
+   - run 'recordExprPref.py'
+     ('./recordExprPref.py --help' for detail)
+
+FAQ:
+
+   - How to turn on SHMConfig for your touchpad?
+      sudo vim /usr/share/X11/xorg.conf.d/50-synaptics.conf
+      add 'Option "SHMConfig" "on"' to Identifier "touchpad catchall" section.
+      reboot
+      use synclient -m <time in ms> to see touchpad activity
    
