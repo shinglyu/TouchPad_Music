@@ -5,7 +5,7 @@ def waitKey():
 def readMidi(filename):
    return converter.parse(filename);
 
-def play(s):
+def playStream(s):
       sp = midi.realtime.StreamPlayer(s)
       sp.play()
 

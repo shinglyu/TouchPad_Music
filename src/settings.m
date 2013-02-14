@@ -1,5 +1,5 @@
-recordPath = '../records/';
-midiPath = '../midi/';
+recordPath = '../records/'
+scorePath = '../scores/'
 %function output =  getRecName(filename){
 %   output =  recordPath + filename + '.txt';
 %end
