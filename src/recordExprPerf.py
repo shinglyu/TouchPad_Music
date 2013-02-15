@@ -15,10 +15,14 @@ def recordAll(score, args, counter = 1): #score needs to be flat
       except KeyboardInterrupt:
          pass
       print("[INFO] =====Now recording phrase no." + str(counter) + "=====")
-      recLogFilename = settings.getRecLogFilename(args.scoreFilename +'.'+ str(counter))
+      #recLogFilename = settings.getRecLogFilename(args.scoreFilename +'.'+ str(counter))
+      recLogFilename = args.outputDir + settings.getScoreName(args.scoreFilename)
+      recLogFilename += '.'+ str(counter) + '.log'
       record.record(score, recLogFilename);
       perf = musicGenerator.generatePerf(score, recLogFilename)
-      musicGenerator.savePerf2File(perf, args.outputFilename + '.'+str(counter))
+      outFilename= args.outputDir + settings.getScoreName(args.scoreFilename)
+      outFilename+= '.'+ str(counter) + '.perf' + settings.defaultOutputFormat
+      musicGenerator.savePerf2File(perf, outFilename)
       scoreTail= score[len(perf):]
       recordAll(scoreTail, args, counter+1)
 
@@ -28,9 +32,9 @@ def main():
                        help="Input score filename",
                        default=settings.defaultScoreFilename
                       )
-   parser.add_argument("outputFilename", nargs="?" , 
-                       help="Expressive output filename",
-                       default=settings.defaultOutputFilename
+   parser.add_argument("outputDir", nargs="?" , 
+                       help="Expressive output directory",
+                       default=settings.defaultOutputDir
                       )
    args = parser.parse_args()
 
