@@ -9,8 +9,12 @@ def recordAll(score, args, counter = 1): #score needs to be flat
    if len(score) == 0:
       return
    else:
-      print("[INFO] Now recording phrase no." + str(counter))
-      record.playStream(score); #provide stop button
+      try:
+         print("[INFO] Now playing score. You can start to record anytime by pressing Ctrl+c")
+         record.playStream(score); #provide stop button
+      except KeyboardInterrupt:
+         pass
+      print("[INFO] =====Now recording phrase no." + str(counter) + "=====")
       recLogFilename = settings.getRecLogFilename(args.scoreFilename +'.'+ str(counter))
       record.record(score, recLogFilename);
       perf = musicGenerator.generatePerf(score, recLogFilename)
