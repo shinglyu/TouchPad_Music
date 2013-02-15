@@ -18,7 +18,7 @@ def parseRecLog(filename):
                settings.printDebug('Title line, skipped')
                pass
          else:
-            print('[WARN] Unknown line format in ' + filename + ". Skipped.");
+            settings.printDebug('Not a data line format in ' + filename + ". Skipped.");
             continue;
    return recLog
 
@@ -49,7 +49,7 @@ def generatePerf(score, recLogFilename):
    return perf
 
 def savePerf2File(perf, outFilename):
-   tempo = music21.tempo.MetronomeMark(number=60)
+   tempo = music21.tempo.MetronomeMark(number=120)
    onsetDuraObjs= [tempo.secondsToDuration(n['onset']) for n in perf]
    #for d in onsetDuraObjs:
    #   settings.printDebug(d) 

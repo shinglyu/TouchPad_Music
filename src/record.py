@@ -4,6 +4,7 @@ import os
 import sys 
 import settings 
 import music21 
+import threading
 from collections import deque
 
 def playStream(s):
@@ -47,7 +48,9 @@ def record(score, recLogFilename):
                print('[ERROR]: Your recording is longer than the score. Force cut.')
                break
                #raise Exception('[ERROR]: Your recording is longer than the score. Stopped')
-            playNote(note)
+            t = threading.Thread(target=playNote, args=(note,))
+            t.start()
+            #playNote(note)
 
          recLogLines.append(line)
          prevFingerCount = fingerCount
