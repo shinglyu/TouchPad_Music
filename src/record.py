@@ -5,8 +5,7 @@ import sys
 import settings 
 import music21 
 from collections import deque
-#infname = './test.mp3';
-#outfname = './test.txt';
+
 def playStream(s):
    sp = music21.midi.realtime.StreamPlayer(s)
    sp.play()
@@ -22,55 +21,42 @@ def record(score, recLogFilename):
    cmd = ['synclient',  '-m' , str(period)]
    settings.printDebug(cmd)
    p = subprocess.Popen(cmd, stdout = subprocess.PIPE)
-   print('[INFO] Press Ctrl+c to stop recording the current phrase.')
+   print('[INFO] Press Ctrl+c to cut off the current phrase.')
    noteIter = iter(score)
-   queue = deque() #enqueue from right, dequeue from left
-   perf = []
-   prevParsedLine = {'time': 0, 'pressure': 0, 'fingerCount': 0}
+   recLogLines = ['time\t y\t z\t f\t w\t l\t r\t u\t d\t m\t multi\n']
+   prevFingerCount= 0
    while True:
       try:
          line  = p.stdout.readline()
-         settings.printDebug(line)
+         settings.printDebug(line),
          sys.stdout.flush()
 
-         #if len(line.split()) == 17: 
-            #(time, x, y, z, f, w, l, r, u, d, m, multi, gl, gm, gr, gdx, gdy) = line.split(); 
          if len(line.split()) != 12:
-            print('[WARN] Unknown line format. Skipped.');
+            settings.printDebug('Not a data line format. Skipped.'),
             continue;
 
          (time, x, y, z, f, w, l, r, u, d, m, multi) = line.split();
-         parsedLine = {'time': float(time), 'pressure': int(z), 'fingerCount': int(f)}
-         #recLog.append({'time': float(time), 'pressure': int(z), 'fingerCount': int(f)})
+         fingerCount = int(f)
 
-         if parsedLine['fingerCount'] > prevParsedLine['fingerCount']:
+         if fingerCount > prevFingerCount:
             #Note on event
+            settings.printDebug("Note ON")
             try:
                note = noteIter.next()
             except StopIteration:
-               print('[ERROR]: Your recording is longer than the score. Stopped')
+               print('[ERROR]: Your recording is longer than the score. Force cut.')
                break
                #raise Exception('[ERROR]: Your recording is longer than the score. Stopped')
             playNote(note)
-            queue.append({'onset':parsedLine['time'], 
-                          'velocity': parsedLine['pressure'],
-                          'pitch': note.pitch,
-                          'duration': None
-                          })
-            #noteon
-            settings.printDebug(queue)
-         elif parsedLine['fingerCount'] < prevParsedLine['fingerCount']:
-            #note off event
-            note = queue.popleft()
-            settings.printDebug(queue)
-            note['duration'] = parsedLine['time'] - note['onset'] 
-            perf.append(note)
-         prevParsedLine = parsedLine
+
+         recLogLines.append(line)
+         prevFingerCount = fingerCount
 
       except KeyboardInterrupt:
          print('[INFO] Current phrase is cut by user')
          break 
 
    p.kill()
-   return perf
+   with open(recLogFilename, 'w') as f:
+      f.writelines(recLogLines)
 

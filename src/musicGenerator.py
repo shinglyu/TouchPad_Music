@@ -8,11 +8,15 @@ def parseRecLog(filename):
    with open(filename, 'r') as recLogFile:
       for line in recLogFile: 
          #settings.printDebug(line.split())
-         if len(line.split()) == 17: 
-            (time, x, y, z, f, w, l, r, u, d, m, multi, gl, gm, gr, gdx, gdy) = line.split(); 
-         elif len(line.split()) == 12:
+         #if len(line.split()) == 17: 
+         #   (time, x, y, z, f, w, l, r, u, d, m, multi, gl, gm, gr, gdx, gdy) = line.split(); 
+         if len(line.split()) == 12:
             (time, x, y, z, f, w, l, r, u, d, m, multi) = line.split();
-            recLog.append({'time': float(time), 'pressure': int(z), 'fingerCount': int(f)})
+            try: 
+               recLog.append({'time': float(time), 'pressure': int(z), 'fingerCount': int(f)})
+            except ValueError:
+               settings.printDebug('Title line, skipped')
+               pass
          else:
             print('[WARN] Unknown line format in ' + filename + ". Skipped.");
             continue;
