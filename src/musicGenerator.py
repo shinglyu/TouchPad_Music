@@ -73,6 +73,6 @@ def savePerf2File(perf, outFilename):
    midifile.open(outFilename, 'wb')
    midifile.write()
    midifile.close()
-   print('[INFO] Expressive performance wrote to ' + outFilename)
+   print('[INFO] Expressive performance saved to ' + outFilename)
 
    
