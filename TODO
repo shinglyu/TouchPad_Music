@@ -1,0 +1,12 @@
+Reconsider filename convention
+Copy score too (includes proper metadata and measure)
+  copy TimeSignature
+  makeMeasure()
+  makeTie()?
+Information output
+skip button while playing all
+More clear START/STOP info line
+Real-time play (play very long? cut off at final note?)
+move argparse to __main__ section
+
+
