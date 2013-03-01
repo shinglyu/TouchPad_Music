@@ -33,6 +33,9 @@ def computeTimeSigList(origScore):
             elemList.append(currElem)
       return elemList
 
+def writeSegments(, counter = 1): #score needs to be flat
+   #TODO
+
 def split(splitRecFilename, origScoreFilename):
    with open(splitRecFilename, 'r') as f:
       splitRec = simplejson.load(f)
@@ -44,6 +47,7 @@ def split(splitRecFilename, origScoreFilename):
 
    scoreElemsAll= zip(timeSigList) #may have key etc 
 
+   #TODO: Change this for to writeSegments recursion
    for offsetSegment, scoreElems in zip(splitRec, scoreElemsAll):
       minOffset = min(offsetSegment)
       maxOffset = max(offsetSegment)
