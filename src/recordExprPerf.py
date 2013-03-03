@@ -75,7 +75,7 @@ def main():
    if settings.DEBUG: 
       print("[DEBUG] "), 
       score.flat.show('text')
-   recLogFilename = settings.getRecLogFilename(args.scoreFilename)
+   #recLogFilename = settings.getRecLogFilename(args.scoreFilename)
    notes = score.flat.notes
    recordAll(notes, args = args)
 

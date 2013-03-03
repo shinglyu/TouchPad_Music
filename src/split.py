@@ -4,6 +4,11 @@ import argparse
 import simplejson
 import music21
 
+#TODO:
+#     1. multiple time signature
+#     2. multiple key
+#     3. Test if there will be long rests before first note
+
 #def findScoreInfo(score, infoClass): #infoClass can be TImeSignature or other
 
 def computeTimeSigList(origScore):
@@ -33,55 +38,75 @@ def computeTimeSigList(origScore):
             elemList.append(currElem)
       return elemList
 
-def writeSegments(, counter = 1): #score needs to be flat
-   #TODO
+def writeSegments(splitRec, scoreElemsAll, origScore, 
+                  outputDir, scoreName, counter = 1): #score needs to be flat
+   if len(splitRec) == 0:
+      return 
 
-def split(splitRecFilename, origScoreFilename):
+   splitRecHead = splitRec[0]
+   splitRecTail = splitRec[1:]
+   scoreElemsAllHead = scoreElemsAll[0]
+   scoreElemsAllTail = scoreElemsAll[1:]
+
+   minOffset = min(splitRecHead)
+   maxOffset = max(splitRecHead)
+   settings.printDebug(origScore)
+   scoreSegment = (origScore.flat.getElementsByOffset(minOffset, maxOffset))
+   if settings.DEBUG:
+      settings.printDebug('')
+      scoreSegment.show('text')
+
+   settings.printDebug(scoreSegment[0].offset)
+   for scoreElem in scoreElemsAllHead:
+      scoreSegment.insert(scoreSegment[0].offset, scoreElem)
+
+   if settings.DEBUG:
+      settings.printDebug('')
+      scoreSegment.show('text')
+   #settings.printDebug(scoreSegment.notes[0])
+   #settings.printDebug(scoreSegment.notes[0].beat)
+
+   # If not start at first beat, insert rests
+   # However, the "beat" is right but "offset" is not. 
+   # Inserting rest will increase readability. But may screw up beat
+   startBeat = scoreSegment.notes[0].beat 
+   if startBeat > 1: # If not start at first beat, insert rests
+      r = music21.note.Rest(quarterLength=(startBeat-1))
+      settings.printDebug(r.quarterLength)
+      scoreSegment.insert(scoreSegment.notes[0].offset - r.quarterLength, r)
+
+   if settings.DEBUG:
+      settings.printDebug('')
+      scoreSegment.show('text')
+      
+
+
+   scoreMeasures = scoreSegment.makeMeasures()
+
+   splittedScoreFilename = outputDir + scoreName 
+   splittedScoreFilename += '.'+ str(counter) + '.score.xml'
+   scoreMeasures.write('musicxml', splittedScoreFilename)
+   print('[INFO] Splitted score saved to ' + splittedScoreFilename)
+
+   writeSegments(splitRecTail, scoreElemsAllTail, origScore, 
+                 outputDir, scoreName, counter+1)
+   return 
+
+def split(splitRecFilename, origScoreFilename, outputDir):
    with open(splitRecFilename, 'r') as f:
       splitRec = simplejson.load(f)
    origScore = music21.converter.parse(origScoreFilename)
 
    timeSigList = computeTimeSigList(origScore)
-
    settings.printDebug(timeSigList)   
 
    scoreElemsAll= zip(timeSigList) #may have key etc 
 
-   #TODO: Change this for to writeSegments recursion
-   for offsetSegment, scoreElems in zip(splitRec, scoreElemsAll):
-      minOffset = min(offsetSegment)
-      maxOffset = max(offsetSegment)
-      scoreSegment = (origScore.flat.getElementsByOffset(minOffset, maxOffset))
-
-      #currentTimeSig = music21.meter.TimeSignature('4/4')
-      for scoreElem in scoreElems:
-         scoreSegment.insert(scoreSegment[0].offset, scoreElem)
-      scoreMeasures = scoreSegment.makeMeasures()
-
-      scoreMeasures.write('musicxml', outFilename)
-      #musicXml = music21.musicxml.toMxObjects.streamToMx(scoreMeasures)
-      #musicXmlDoc = music21.musicxml.base.Document(musicXml)
-      #k
-      #with open(outFilename, 'wb') as f:
-         #musicXmlDoc.open(f)
-         #musicXmlDoc.write()
-         #musicXmlDoc.close()
-         
-      #musicXml.open(outFilename, 'wb')
-      #musicXml.write()
-      #musicXml.close()
-      #musicXmlDoc = music2.musicxml.base.Document(musicXml)
-      print('[INFO] Splitted score saved to ' + outFilename)
+   scoreName = settings.getScoreName(origScoreFilename)
+   #for offsetSegment, scoreElems in zip(splitRec, scoreElemsAll):
+   writeSegments(splitRec, scoreElemsAll, origScore, outputDir, scoreName)
 
 
-      #get TimeSignature and key
-
-      #TODO:key
-
-      #prepent TimeSig and Key to scoreSegment, not the init offset 
-      #save the scoreSegment to xml
-
-   #refactor this to recursion or something because we need counter
 
 if __name__ == "__main__":
    parser = argparse.ArgumentParser()
@@ -91,5 +116,8 @@ if __name__ == "__main__":
    parser.add_argument("score",  
                        help="Path to score file",
                       )
+   parser.add_argument("outputDir",  
+                       help="Output Directory",
+                      )
    args = parser.parse_args()
-   split(args.split, args.score)
+   split(args.split, args.score, args.outputDir)
