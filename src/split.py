@@ -39,7 +39,7 @@ def computeTimeSigList(origScore):
       return elemList
 
 def writeSegments(splitRec, scoreElemsAll, origScore, 
-                  outputDir, scoreName, counter = 1): #score needs to be flat
+                  outputDir, scoreFilename, counter = 1): #score needs to be flat
    if len(splitRec) == 0:
       return 
 
@@ -83,13 +83,16 @@ def writeSegments(splitRec, scoreElemsAll, origScore,
 
    scoreMeasures = scoreSegment.makeMeasures()
 
-   splittedScoreFilename = outputDir + scoreName 
-   splittedScoreFilename += '.'+ str(counter) + '.score.xml'
-   scoreMeasures.write('musicxml', splittedScoreFilename)
+   #splittedScoreFilename = outputDir + scoreName 
+   #splittedScoreFilename += '.'+ str(counter) + '.score.xml'
+   splittedScoreFilename = settings.getSplittedScoreFilename(counter, 
+                                                             scoreFilename, 
+                                                             outputDir)
+   scoreMeasures.write(settings.defaultOutputFormatName, splittedScoreFilename)
    print('[INFO] Splitted score saved to ' + splittedScoreFilename)
 
    writeSegments(splitRecTail, scoreElemsAllTail, origScore, 
-                 outputDir, scoreName, counter+1)
+                 outputDir, scoreFilename, counter+1)
    return 
 
 def split(splitRecFilename, origScoreFilename, outputDir):
@@ -102,9 +105,8 @@ def split(splitRecFilename, origScoreFilename, outputDir):
 
    scoreElemsAll= zip(timeSigList) #may have key etc 
 
-   scoreName = settings.getScoreName(origScoreFilename)
    #for offsetSegment, scoreElems in zip(splitRec, scoreElemsAll):
-   writeSegments(splitRec, scoreElemsAll, origScore, outputDir, scoreName)
+   writeSegments(splitRec, scoreElemsAll, origScore, outputDir, origScoreFilename)
 
 
 
