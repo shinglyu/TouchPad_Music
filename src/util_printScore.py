@@ -8,6 +8,7 @@ parser.add_argument("score",
 args = parser.parse_args()
 
 s = music21.converter.parse(args.score)
-s.show('text')
-for note in s.flat.notes:
-   print(note.beat)
+#s.show('text')
+s.show()
+#for note in s.flat.notes:
+#   print(note.beat)

@@ -11,6 +11,11 @@ Required Package:
 Usage:
    - run 'recordExprPref.py'
      ('./recordExprPref.py --help' for detail)
+   - If split record is present. Use 'split.py' to generate splitted scores.
+
+Utilities:
+   - genCorpus.py: extract soprano of the given full score.
+   - printScore.py: print score elements in text format.
 
 FAQ:
 

@@ -49,7 +49,7 @@ def generatePerf(score, recLogFilename):
    return perf
 
 def savePerf2File(perf, outFilename):
-   tempo = music21.tempo.MetronomeMark(number=120)
+   tempo = music21.tempo.MetronomeMark(number=60)
    onsetDuraObjs= [tempo.secondsToDuration(n['onset']) for n in perf]
    #for d in onsetDuraObjs:
    #   settings.printDebug(d) 
@@ -68,11 +68,12 @@ def savePerf2File(perf, outFilename):
       settings.printDebug(note)
       outStream.insert(onset, note)
    settings.printDebug('')
-   if settings.DEBUG: outStream.show('text')
-   midifile = music21.midi.translate.streamToMidiFile(outStream)
-   midifile.open(outFilename, 'wb')
-   midifile.write()
-   midifile.close()
+   outStream.write(settings.defaultOutputFormatName, outFilename)
+   #if settings.DEBUG: outStream.show('text')
+   #midifile = music21.midi.translate.streamToMidiFile(outStream)
+   #midifile.open(outFilename, 'wb')
+   #midifile.write()
+   #midifile.close()
    print('[INFO] Expressive performance saved to ' + outFilename)
 
    

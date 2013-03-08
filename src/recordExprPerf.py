@@ -91,8 +91,7 @@ def main():
    notes = score.flat.notes
    recordAll(notes, args = args)
    split.split(settings.getSplitRecFilename(args.scoreFilename, args.outputDir),
-               args.scoreFilename,
-               args.outputDir)
+               args.scoreFilename, args.outputDir)
 
 
 
