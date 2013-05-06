@@ -40,6 +40,7 @@ def computeTimeSigList(origScore):
 
 def writeSegments(splitRec, scoreElemsAll, origScore, 
                   outputDir, scoreFilename, counter = 1): #score needs to be flat
+   #see split for def of scoreElemsAll
    if len(splitRec) == 0:
       return 
 
@@ -66,6 +67,9 @@ def writeSegments(splitRec, scoreElemsAll, origScore,
    #settings.printDebug(scoreSegment.notes[0])
    #settings.printDebug(scoreSegment.notes[0].beat)
 
+   scoreSegment.shiftElements(-(scoreSegment.lowestOffset)) 
+   # segment no >2 need shift, or will have heading rests
+
    # If not start at first beat, insert rests
    # However, the "beat" is right but "offset" is not. 
    # Inserting rest will increase readability. But may screw up beat
@@ -73,7 +77,7 @@ def writeSegments(splitRec, scoreElemsAll, origScore,
    if startBeat > 1: # If not start at first beat, insert rests
       r = music21.note.Rest(quarterLength=(startBeat-1))
       settings.printDebug(r.quarterLength)
-      scoreSegment.insert(scoreSegment.notes[0].offset - r.quarterLength, r)
+      scoreSegment.insertAndShift(scoreSegment.notes[0].offset, r)
 
    if settings.DEBUG:
       settings.printDebug('')
@@ -103,6 +107,8 @@ def split(splitRecFilename, origScoreFilename, outputDir):
    timeSigList = computeTimeSigList(origScore)
    settings.printDebug(timeSigList)   
 
+   #scoreElemsAll is all notational elements for each segments
+   #e.g. [[timeSig1, key1], [timeSig2, key2]...]
    scoreElemsAll= zip(timeSigList) #may have key etc 
 
    #for offsetSegment, scoreElems in zip(splitRec, scoreElemsAll):

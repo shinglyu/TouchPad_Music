@@ -5,8 +5,8 @@ import argparse
 import settings
 import scoreList 
 
-outputDir = settings.defaultOutputDir
-outputDir = "../scoreQuarantine/"
+#outputDir = settings.defaultOutputDir
+outputDir = "../scoreQuarantine20130505/"
 
 #useCorpus = True #False: use real file
 useCorpus = False#False: use real file
@@ -14,7 +14,8 @@ useCorpus = False#False: use real file
 if useCorpus:
    scoreNameList = scoreList.corpusNameList
 else: #use real file
-   scoreNameList = scoreList.scoreFileList
+   #scoreNameList = scoreList.scoreFileList
+   scoreNameList = scoreList.monoList
 
 
 for scoreName in scoreNameList:
@@ -42,10 +43,10 @@ for scoreName in scoreNameList:
       sop.write('musicxml', outFilename)
       print('[INFO] '+ outFilename + ' created.')
 
-      outFilename = outputDir + workTitle+ '.score.mid'
-      sop.write('midi', outFilename)
-      print('[INFO] '+ outFilename + ' created.')
-   except:
+      #outFilename = outputDir + workTitle+ '.score.mid'
+      #sop.write('midi', outFilename)
+      #print('[INFO] '+ outFilename + ' created.')
+   except (ValueError, AttributeError):
       print('[ERROR] '+ scoreName+ ' conversion FAILED.')
       pass
 

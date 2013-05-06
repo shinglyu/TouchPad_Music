@@ -3,6 +3,7 @@ import os
 import argparse
 import music21
 import simplejson
+import pygame.mouse
 
 import settings 
 import record
@@ -61,10 +62,16 @@ def recordAll(score, args, splitRecord = [], counter = 1): #score needs to be fl
       splitRecord.append(scoreHeadOffsets)
       settings.printDebug(splitRecord)
       #splitRecord.extend(scoreHead)
+      #capture mouse
+      #pos = pygame.mouse.get_pos()
+      #print("mouse position: "+pos)
       recordAll(scoreTail, args, splitRecord, counter+1)
 
 def main():
    parser = argparse.ArgumentParser()
+   parser.add_argument("-s", "--splitScoreOnly", action="store_true",
+                       help="Split recorded files only"
+                       )
    parser.add_argument("scoreFilename", nargs="?" , 
                        help="Input score filename",
                        default=settings.defaultScoreFilename
@@ -89,7 +96,8 @@ def main():
       score.flat.show('text')
    #recLogFilename = settings.getRecLogFilename(args.scoreFilename)
    notes = score.flat.notes
-   recordAll(notes, args = args)
+   if (not args.splitScoreOnly):
+       recordAll(notes, args = args)
    split.split(settings.getSplitRecFilename(args.scoreFilename, args.outputDir),
                args.scoreFilename, args.outputDir)
 

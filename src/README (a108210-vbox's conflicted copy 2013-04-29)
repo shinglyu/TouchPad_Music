@@ -14,13 +14,8 @@ Usage:
    - If split record is present. Use 'split.py' to generate splitted scores.
 
 Utilities:
-   - util_genCorpus.py: extract soprano of the given full score.
-     1. add score path to scoreList.py
-     2. edit the path in util_genCorpus.py
-     3. run util_genCorpus.py
-   - util_checkPureMonophonic.py: create cpPureMono.sh for copying purely 
-     monophonic files to scoreQuarantine3/
-   - util_printScore.py: print score elements in text format.
+   - genCorpus.py: extract soprano of the given full score.
+   - printScore.py: print score elements in text format.
 
 FAQ:
 

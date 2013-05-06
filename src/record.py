@@ -58,7 +58,23 @@ def record(score, recLogFilename):
 
       except KeyboardInterrupt:
          print('[INFO] Current phrase is cut by user')
-         break 
+         try:
+            mode=int(raw_input('Enter [1]continue [2]restart:'))
+         except ValueError:
+            print("[ERROR] Not a number")
+         if (mode==1):
+            break 
+         elif (mode==2):
+            recLogLines = ['time\t y\t z\t f\t w\t l\t r\t u\t d\t m\t multi\n']
+            noteIter = iter(score)
+            prevFingerCount= 0
+            p.kill()
+            p = subprocess.Popen(cmd, stdout = subprocess.PIPE)
+            pass
+         else:
+            print("[ERROR] Unknown option, force restart.")
+            pass
+
 
    p.kill()
    with open(recLogFilename, 'w') as f:
