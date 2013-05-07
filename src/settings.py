@@ -4,8 +4,15 @@ recordPath = '../records/';
 scorePath = '../score/'
 defaultScoreFilename =  scorePath + 'test2.score.mid'
 defaultOutputDir =  recordPath 
-defaultOutputFormatExt = '.xml'
-defaultOutputFormatName = 'musicxml'
+
+#defaultOutputFormatExt = '.xml'
+#defaultOutputFormatName = 'musicxml'
+
+defaultPerfFormatExt = '.mid'
+defaultPerfFormatName = 'midi'
+
+defaultScoreFormatExt = '.xml'
+defaultScoreFormatName = 'musicxml'
 #DEBUG = False;
 DEBUG = True;
 def getScoreName(scoreFilename):
@@ -36,13 +43,13 @@ def getSplitRecFilename(scoreFilename, outputDir):
 def getOutFilename(counter, scoreFilename, outputDir):
    #test.score.mid > ../record/test.1.perf.xml
    outFilename= outputDir + getScoreName(scoreFilename)
-   outFilename+= '.'+ str(counter) + '.perf' + defaultOutputFormatExt
+   outFilename+= '.'+ str(counter) + '.perf' + defaultPerfFormatExt
    return outFilename
 
 def getSplittedScoreFilename(counter, scoreFilename, outputDir):
    #test.score.mid > ../record/test.1.score.xml
    splittedScoreFilename = outputDir + getScoreName(scoreFilename)
-   splittedScoreFilename += '.'+ str(counter) + '.score' + defaultOutputFormatExt
+   splittedScoreFilename += '.'+ str(counter) + '.score' + defaultScoreFormatExt
    return splittedScoreFilename
 
 #def getRecLogFilename(scoreFilename):

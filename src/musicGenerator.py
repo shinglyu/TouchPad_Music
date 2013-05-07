@@ -68,7 +68,7 @@ def savePerf2File(perf, outFilename):
       settings.printDebug(note)
       outStream.insert(onset, note)
    settings.printDebug('')
-   outStream.write(settings.defaultOutputFormatName, outFilename)
+   outStream.write(settings.defaultPerfFormatName, outFilename)
    #if settings.DEBUG: outStream.show('text')
    #midifile = music21.midi.translate.streamToMidiFile(outStream)
    #midifile.open(outFilename, 'wb')

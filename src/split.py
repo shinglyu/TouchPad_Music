@@ -92,7 +92,7 @@ def writeSegments(splitRec, scoreElemsAll, origScore,
    splittedScoreFilename = settings.getSplittedScoreFilename(counter, 
                                                              scoreFilename, 
                                                              outputDir)
-   scoreMeasures.write(settings.defaultOutputFormatName, splittedScoreFilename)
+   scoreMeasures.write(settings.defaultScoreFormatName, splittedScoreFilename)
    print('[INFO] Splitted score saved to ' + splittedScoreFilename)
 
    writeSegments(splitRecTail, scoreElemsAllTail, origScore, 
