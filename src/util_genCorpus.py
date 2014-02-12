@@ -1,3 +1,4 @@
+#Transform polyphonic to monophonic
 import music21
 import os.path
 import argparse
@@ -24,7 +25,15 @@ for scoreName in scoreNameList:
          s = music21.corpus.parse(scoreName)
       else:
          s = music21.converter.parse(scoreName)
-      sop = s.parts[0]
+      #sop = s.parts[0]
+      sop = s
+      output = music21.stream.Stream
+      for elem in sop.flat:
+         if elem.isChord:
+            tmpElem = elem[0]
+         else:
+            tmpElem = elem
+         output.append(tmpElem)
       #settings.printDebug(os.path.dirname(scoreName))
       #settings.printDebug(os.path.basename(scoreName))
       #settings.printDebug(os.path.splitext(scoreName))
@@ -40,7 +49,7 @@ for scoreName in scoreNameList:
       #workTitle = os.path.splitext(os.path.basename(scoreName))[0]
       
       outFilename = outputDir + workTitle+ '.score.xml'
-      sop.write('musicxml', outFilename)
+      output.write('musicxml', outFilename)
       print('[INFO] '+ outFilename + ' created.')
 
       #outFilename = outputDir + workTitle+ '.score.mid'

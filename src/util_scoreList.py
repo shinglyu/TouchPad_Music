@@ -1,3 +1,5 @@
+#Script to print information about scores, include time signature etc.
+
 import music21
 import os.path
 import collections
@@ -23,7 +25,23 @@ def isPureMonophonic(m21Score):
    #print(map(lambda n:n.isChord, m21Score.flat.notes))
    if (any(map(lambda n:n.isChord, m21Score.flat.notes))):
       return False;
-   return True
+   #offsets = map(lambda n:n.offset, m21Score.flat.notes)
+   #count = collections.Counter(offsets)
+   #hasOverlapNotes = any(map(lambda c:c>1, count))
+   #return hasOverlapNotes
+
+def getTimeSignature(m21Score):
+   #settings.printDebug(any(map(lambda n:n.isChord,m21Score.flat.notes)))
+   #print(map(lambda n:n.isChord, m21Score.flat.notes))
+   string = ""
+   tss = m21Score.flat.getTimeSignatures(returnDefault=False)
+   #tss = m21Score.flat.getElementsByClass(music21.meter.TimeSignature)
+   if len(tss) == 0:
+      return "N/A"
+   for ts in tss:
+      string += ts.ratioString + " " 
+   return string
+
    #offsets = map(lambda n:n.offset, m21Score.flat.notes)
    #count = collections.Counter(offsets)
    #hasOverlapNotes = any(map(lambda c:c>1, count))
@@ -32,17 +50,15 @@ def isPureMonophonic(m21Score):
 def main(path):
    for scoreName in sorted(glob.glob(path)):
       try:
-         if useCorpus:
-            s = music21.corpus.parse(scoreName)
-         else:
-            s = music21.converter.parse(scoreName)
+         s = music21.converter.parse(scoreName)
 
+         tag = ""
          if isPureMonophonic(s):
             tag = "mono"
          #add simple poly
-         else:
-            tag = "poly"
-         print("* " + scoreName + "\t" + tag)
+         #else:
+         #   tag = "poly"
+         print(scoreName + "\t" + getTimeSignature(s) + "\t" + tag + "\n")
 
       #except IOError:
       #   pass

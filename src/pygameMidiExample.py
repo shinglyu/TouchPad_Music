@@ -22,7 +22,7 @@ def midiExample():
     pygame.midi.init()
 
     #port = pygame.midi.get_default_output_id()
-    port = 3
+    port = 7
     print ("using output_id :%s:" % port)
     midi_out = pygame.midi.Output(port, 0)
     try:
