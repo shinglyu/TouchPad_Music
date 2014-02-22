@@ -41,7 +41,10 @@ def main(path):
             tag = "mono"
          #add simple poly
          else:
-            tag = "poly"
+            tag = "poly at "
+            for n in filter(lambda n:n.isChord, s.flat.notes):
+               tag = tag + "measure " + str(n.measureNumber) + ":"
+               tag = tag + str(n.offset) + " "
          print("* " + scoreName + "\t" + tag)
 
       #except IOError:
