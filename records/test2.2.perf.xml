@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise
+  PUBLIC '-//Recordare//DTD MusicXML 2.0 Partwise//EN'
+  'http://www.musicxml.org/dtds/partwise.dtd'>
+<score-partwise>
+  <movement-title>Music21 Fragment</movement-title>
+  <identification>
+    <creator type="composer">Music21</creator>
+  </identification>
+  <part-list>
+    <score-part id="P06b8e31f9c171a96b450b63269cdbb82">
+      <part-name></part-name>
+    </score-part>
+  </part-list>
+  <part id="P06b8e31f9c171a96b450b63269cdbb82">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>F</sign>
+          <line>4</line>
+        </clef>
+      </attributes>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>3</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="start"/>
+        <type>eighth</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <type>16th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <type>32nd</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

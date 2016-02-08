@@ -1,0 +1,66 @@
+!!!OTL: N6e. Chopin, Mazurka, op. 41 no. 2, mm. 1-8
+!!!OMD: Andantino
+**kern	**kern
+*staff2	*staff1
+*clefF4	*clefG2
+*k[f#]	*k[f#]
+*e:	*e:
+*M3/4	*M3/4
+*MM72	*MM72
+=1-	=1-
+4E\	(4d/ 4e/ 4g#/ 4b/
+4E\	4d/ 4e/ 4g#/ 4b/
+*	*^
+4E\	8.cc/L	4d\ 4e\ 4g#\
+.	16b/Jk	.
+=2	=2	=2
+2.AA/ 2.E/	4b/	2.c\ 2.e\
+.	8.a/L	.
+.	16g#/Jk	.
+.	4a/)	.
+*	*v	*v
+=3	=3
+4BB/	(4A/ 4B/ 4d#/ 4f#/
+4BB/	4A/ 4B/ 4d#/ 4f#/
+*	*^
+4BB/	8.g/L	4A\ 4B\ 4d#\
+.	16f#/Jk	.
+=4	=4	=4
+2.EE/ 2.E/	8f#/L	4A\ 4c\
+.	8e/J	.
+.	8f#q/	.
+.	8e/L	2G\ 2B\
+.	8d#/J	.
+.	4e/)	.
+*	*v	*v
+=5	=5
+4E\	(4dn/ 4e/ 4g#/ 4b/
+4E\	4d/ 4e/ 4g#/ 4b/
+*	*^
+4E\	8.cc/L	4d\ 4e\ 4g#\
+.	16b/Jk	.
+=6	=6	=6
+2.AA/ 2.E/	8ee/L	4d\ 4e\ 4g#\
+.	8b/J	.
+.	16aQ/LL	.
+.	16bQ/JJ	.
+.	8a/L	2c\
+.	8g#X/J	.
+.	4a/	.
+*	*v	*v
+=7	=7
+8c\L	8cc/L
+8Gn\J	8gn/J
+4Fn\	4fn/
+8.E\L	8.e/L
+16G\Jk	16g/Jk
+=8	=8
+*^	*^
+2E/	4r	2e/)	4r
+.	4EE\ 4BB\	.	4G\ 4B\
+*v	*v	*	*
+*	*v	*v
+4r	(4b\
+=	=
+*-	*-
+!!!hum2abc: -q

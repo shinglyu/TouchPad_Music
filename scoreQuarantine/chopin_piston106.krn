@@ -1,0 +1,39 @@
+!!!COM: Chopin, Frederic
+!!!OTL: Nocturne, Op. 27, No. 1
+!!!OPS: Op. 27
+!!!ONM: No. 1
+!!!SCT: Piston 106
+!!!citation: Harmony by Walter Piston.  W.W.Norton: New York; 1941.
+!!!label: Ex. 106.  Chopin -- <i>Nocturne, op. 37, no. 1</i>
+!!!chapter: Chapter 6 (Harmonic Structure of Phrase)
+!!!page: 58
+!!!ENC: Craig Stuart Sapp
+**kern	**kern	**root	**harm
+*staff2	*staff1	*staff2	*staff2
+*clefF4	*clefF4	*clefF4	*
+*M4/4	*M4/4	*M4/4	*M4/4
+*MM92	*MM92	*MM92	*MM92
+*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]
+*E-:	*E-:	*E-:	*E-:
+4EE-	4E- 4G 4B-	4EE-	I
+4AA-	4E- 4A- 4c	2AA-	IV
+4AA-	4E- 4A- 4c	.	.
+4EE-	4E- 4G 4B-	4EE-	I
+=	=	=	=
+4AA-	4E- 4A- 4c	4AA-	IV
+4EE-	4G 4B- 4e-	4EE-	I
+4BB-	4F 4B- 4d	4BB-	V
+4EE-	4G 4B- 4e-	4EE-	I
+=	=	=	=
+4BB-	4B- 4d 4f	4BB-	V
+4E-	4B- 4e- 4g	4EE-	I
+4AA-	4c 4e- 4a-	4AA-	IV
+4E-	4B- 4e- 4g	4EE-	I
+=	=	=	=
+4BB-	4B- 4d 4f	4BB-	V
+4C	4G 4c 4e-	4CC	vi
+4BB-	4A- 4d 4f	4BB-	V
+.	8gq	.	.
+4EE-	4G 4e-	4EE-	I
+=	=	=	=
+*-	*-	*-	*-

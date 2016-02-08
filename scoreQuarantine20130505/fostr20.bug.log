@@ -1,0 +1,100 @@
+[INFO] Expressive performance saved to ../records/fostr20.6.perf.xml
+[DEBUG] [[0.0, 0.25, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.25, 4.5, 5.0, 5.5, 6.0, 6.5], [8.0, 8.25, 8.5, 9.0, 9.5, 10.25, 10.5, 11.0, 11.5, 12.25, 12.5, 13.0, 13.5, 14.0, 14.5], [16.0, 16.25, 16.5, 17.0, 17.5, 18.0, 18.5, 19.0, 19.5, 20.25, 20.5, 21.0, 21.5, 22.0, 22.5], [24.0, 24.25, 24.5, 25.0, 25.5, 26.0, 26.5, 27.0, 27.5, 28.25, 28.5, 29.0, 29.5, 30.0, 30.5], [32.5, 33.5, 34.5, 35.0, 36.0, 36.5, 37.0, 37.5, 38.0, 38.5], [40.0, 40.25, 40.5, 41.0, 41.5, 42.0, 42.5, 43.0, 43.5, 44.25, 44.5, 45.0, 45.5, 46.0, 46.5]]
+[DEBUG] scoreFilename: ../scoreQuarantine20130505/fostr20.score.xml
+[DEBUG] scoreName: fostr20
+[INFO] splitting record saved to ../records/fostr20.split.json
+[DEBUG] scoreFilename: ../scoreQuarantine20130505/fostr20.score.xml
+[DEBUG] scoreName: fostr20
+[WARN] No time signature found in original score! Default 4/4 used
+[DEBUG] [<music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>, <music21.meter.TimeSignature 4/4>]
+[DEBUG] <music21.stream.Score 61653904>
+[DEBUG] 
+{0.0} <music21.metadata.Metadata object at 0x3adcc90>
+{0.0} <music21.instrument.Instrument P08345649a240ba662b0e581613eecac9: : >
+{0.0} <music21.tempo.MetronomeMark Quarter=114.0>
+{0.0} <music21.key.KeySignature of 1 sharp, mode major>
+{0.0} <music21.meter.TimeSignature 2/4>
+{0.0} <music21.note.Note G>
+{0.25} <music21.note.Note A>
+{0.5} <music21.note.Note B>
+{1.0} <music21.note.Note D>
+{1.5} <music21.note.Note D>
+{2.0} <music21.note.Note E>
+{2.5} <music21.bar.Barline style=regular>
+{2.5} <music21.note.Note D>
+{3.0} <music21.note.Note B>
+{3.5} <music21.note.Note G>
+{4.25} <music21.note.Note A>
+{4.5} <music21.bar.Barline style=regular>
+{4.5} <music21.note.Note B>
+{5.0} <music21.note.Note B>
+{5.5} <music21.note.Note A>
+{6.0} <music21.note.Note G>
+{6.5} <music21.bar.Barline style=regular>
+{6.5} <music21.note.Note A>
+[DEBUG] 0.0
+[DEBUG] 
+{0.0} <music21.metadata.Metadata object at 0x3adcc90>
+{0.0} <music21.instrument.Instrument P08345649a240ba662b0e581613eecac9: : >
+{0.0} <music21.tempo.MetronomeMark Quarter=114.0>
+{0.0} <music21.key.KeySignature of 1 sharp, mode major>
+{0.0} <music21.meter.TimeSignature 2/4>
+{0.0} <music21.meter.TimeSignature 4/4>
+{0.0} <music21.note.Note G>
+{0.25} <music21.note.Note A>
+{0.5} <music21.note.Note B>
+{1.0} <music21.note.Note D>
+{1.5} <music21.note.Note D>
+{2.0} <music21.note.Note E>
+{2.5} <music21.bar.Barline style=regular>
+{2.5} <music21.note.Note D>
+{3.0} <music21.note.Note B>
+{3.5} <music21.note.Note G>
+{4.25} <music21.note.Note A>
+{4.5} <music21.bar.Barline style=regular>
+{4.5} <music21.note.Note B>
+{5.0} <music21.note.Note B>
+{5.5} <music21.note.Note A>
+{6.0} <music21.note.Note G>
+{6.5} <music21.bar.Barline style=regular>
+{6.5} <music21.note.Note A>
+[DEBUG] 1.5
+[DEBUG] 
+{-1.5} <music21.note.Rest rest>
+{0.0} <music21.metadata.Metadata object at 0x3adcc90>
+{0.0} <music21.instrument.Instrument P08345649a240ba662b0e581613eecac9: : >
+{0.0} <music21.tempo.MetronomeMark Quarter=114.0>
+{0.0} <music21.key.KeySignature of 1 sharp, mode major>
+{0.0} <music21.meter.TimeSignature 2/4>
+{0.0} <music21.meter.TimeSignature 4/4>
+{0.0} <music21.note.Note G>
+{0.25} <music21.note.Note A>
+{0.5} <music21.note.Note B>
+{1.0} <music21.note.Note D>
+{1.5} <music21.note.Note D>
+{2.0} <music21.note.Note E>
+{2.5} <music21.bar.Barline style=regular>
+{2.5} <music21.note.Note D>
+{3.0} <music21.note.Note B>
+{3.5} <music21.note.Note G>
+{4.25} <music21.note.Note A>
+{4.5} <music21.bar.Barline style=regular>
+{4.5} <music21.note.Note B>
+{5.0} <music21.note.Note B>
+{5.5} <music21.note.Note A>
+{6.0} <music21.note.Note G>
+{6.5} <music21.bar.Barline style=regular>
+{6.5} <music21.note.Note A>
+Traceback (most recent call last):
+  File "./recordExprPerf.py", line 103, in <module>
+    main()
+  File "./recordExprPerf.py", line 98, in main
+    args.scoreFilename, args.outputDir)
+  File "/home/a108210/Dropbox/0.work/0.project/0.TouchPad/src/split.py", line 109, in split
+    writeSegments(splitRec, scoreElemsAll, origScore, outputDir, origScoreFilename)
+  File "/home/a108210/Dropbox/0.work/0.project/0.TouchPad/src/split.py", line 84, in writeSegments
+    scoreMeasures = scoreSegment.makeMeasures()
+  File "/usr/local/lib/python2.7/dist-packages/music21/stream.py", line 5374, in makeMeasures
+    raise StreamException('cannot place element %s with start/end %s/%s within any measures' % (e, start, end))
+music21.stream.StreamException: cannot place element <music21.note.Rest rest> with start/end -1.5/0.0 within any measures
+

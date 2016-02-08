@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise
+  PUBLIC '-//Recordare//DTD MusicXML 2.0 Partwise//EN'
+  'http://www.musicxml.org/dtds/partwise.dtd'>
+<score-partwise>
+  <work>
+    <work-title>This Page Intentionally Left Blank</work-title>
+  </work>
+  <movement-title>This Page Intentionally Left Blank</movement-title>
+  <identification>
+    <creator type="composer">Music21</creator>
+  </identification>
+  <part-list>
+    <score-part id="P54c7c2f089149f765937fde2ab2daa5d">
+      <part-name></part-name>
+    </score-part>
+  </part-list>
+  <part id="P54c7c2f089149f765937fde2ab2daa5d">
+    <measure number="0">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <rest/>
+        <duration>40320</duration>
+        <type>whole</type>
+        <notations/>
+      </note>
+    </measure>
+  </part>
+</score-partwise>

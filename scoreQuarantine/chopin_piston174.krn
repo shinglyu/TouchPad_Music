@@ -1,0 +1,34 @@
+!!!COM: Chopin, Frederic
+!!!OTL: Prelude in C Minor, Op. 28, No. 20
+!!!OPS: Op. 28
+!!!ONM: No. 20
+!!!SCT: Piston 298
+!!!OMD: Largo
+!!!citation: Harmony by Walter Piston.  W.W.Norton: New York; 1941.
+!!!label: Ex. 174.  Chopin -- <i>Prelude, op. 28, no. 20</i>
+!!!chapter: Chapter 9 (Chords of the Sixths)
+!!!page: 97
+!!!ENC: Craig Stuart Sapp
+**kern	**kern	**root	**harm
+*staff2	*staff1	*staff2	*staff2
+*clefF4	*clefG2	*clefF4	*
+*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]	*k[b-e-a-]
+*c:	*c:	*c:	*c:
+*M4/4	*M4/4	*M4/4	*M4/4
+*MM52	*MM52	*MM52	*MM52
+=5	=5	=5	=5
+4CC 4C	4e- 4g 4ee-	4CC	I
+4C 4c	4e- 4a- 4ee-	4AA-	VIb
+*	*^	*	*
+4BB 4B	4d 4dd	8.a-	2GG	Vb
+.	.	16f#	.	.
+*	*v	*v	*	*
+4BB- 4B-	4d 4g 4dd	.	.
+=6	=6	=6	=6
+4AA 4A	4c 4g 4cc	4FF	IVb
+4GG# 4G#	4c 4d 4f# 4dd	4DD	II7c
+4GG 4G	8.d 8.g 8.bn	2GG	V
+.	16c 16an	.	.
+4FF 4F	4Bn 4d 4g	.	.
+=7	=7	=7	=7
+*-	*-	*-	*-

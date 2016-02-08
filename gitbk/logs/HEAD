@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 59032fc1fe792799932e8aea7150e4c23e9d6b05 a108210 <a108210@mint> 1349534294 +0800	commit (initial): init commit. Can now acquire keystorkes.
+59032fc1fe792799932e8aea7150e4c23e9d6b05 cc79f499a9c1582769ef6efe71ce16fd6eb8f19f Hermes Lyu <a108210@gmail.com> 1350233671 +0800	commit: Allow multitouch.
+cc79f499a9c1582769ef6efe71ce16fd6eb8f19f 9ac1f3486c4cdf3b7aca4a88054f14b8aa038e93 Hermes Lyu <a108210@gmail.com> 1350318227 +0800	commit: Folder cleanup. Start midi writing.
+9ac1f3486c4cdf3b7aca4a88054f14b8aa038e93 04e9411493897bbc9fa5ffd1eeb4427984440a30 Hermes Lyu <a108210@gmail.com> 1350656724 +0800	commit: Can create midi now.
+04e9411493897bbc9fa5ffd1eeb4427984440a30 a4f1fc2532d46f5f9003baa236d89b41d3ab7111 Hermes Lyu <a108210@gmail.com> 1351007488 +0800	commit: Python play ok.
+a4f1fc2532d46f5f9003baa236d89b41d3ab7111 eccc1e3593da0b10ea7fbefffaa9002d7d266f5d Hermes Lyu <a108210@gmail.com> 1351060042 +0800	commit: Finish play-record. Not tested.
+eccc1e3593da0b10ea7fbefffaa9002d7d266f5d ad518ff983a8ddee29cc7312567da5052e4ba6d4 Hermes Lyu <a108210@gmail.com> 1351071455 +0800	commit: Fixed Queue to Stack in process.py
+ad518ff983a8ddee29cc7312567da5052e4ba6d4 df9b8b1520c50118cb06913d9d5124b60b15ec32 Hermes Lyu <a108210@gmail.com> 1351150913 +0800	commit: Play and Rec Finished.

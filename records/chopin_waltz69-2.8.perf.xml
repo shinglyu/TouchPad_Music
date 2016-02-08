@@ -1,0 +1,2233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE score-partwise
+  PUBLIC '-//Recordare//DTD MusicXML 2.0 Partwise//EN'
+  'http://www.musicxml.org/dtds/partwise.dtd'>
+<score-partwise>
+  <movement-title>Music21 Fragment</movement-title>
+  <identification>
+    <creator type="composer">Music21</creator>
+  </identification>
+  <part-list>
+    <score-part id="Pd5d182d118f9e2ff0802420e5c506fa5">
+      <part-name></part-name>
+    </score-part>
+  </part-list>
+  <part id="Pd5d182d118f9e2ff0802420e5c506fa5">
+    <measure number="1">
+      <attributes>
+        <divisions>10080</divisions>
+        <time>
+          <beats>4</beats>
+          <beat-type>4</beat-type>
+        </time>
+        <clef>
+          <sign>G</sign>
+          <line>2</line>
+        </clef>
+      </attributes>
+      <note>
+        <rest/>
+        <duration>10080</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>quarter</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>2520</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>16th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>16th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1008</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          <normal-type>32nd</normal-type>
+        </time-modification>
+        <notations>
+          <tied type="stop"/>
+          <tuplet bracket="yes" placement="above" type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>2520</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>16th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>40107</duration>
+      </backup>
+      <backup>
+        <duration>0</duration>
+      </backup>
+    </measure>
+    <measure number="2">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="start"/>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="start"/>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>2520</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>16th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>6</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>6</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>6</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>6</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>6</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>flat</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <alter>-1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>flat</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>A</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1008</duration>
+        <voice>0</voice>
+        <type>32nd</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          <normal-type>32nd</normal-type>
+        </time-modification>
+        <notations>
+          <tuplet bracket="yes" placement="above" type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>E</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>504</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          <normal-type>64th</normal-type>
+        </time-modification>
+        <notations>
+          <tied type="stop"/>
+          <tuplet bracket="yes" placement="above" type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>G</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>252</duration>
+        <voice>0</voice>
+        <type>128th</type>
+        <time-modification>
+          <actual-notes>5</actual-notes>
+          <normal-notes>4</normal-notes>
+          <normal-type>128th</normal-type>
+        </time-modification>
+        <notations>
+          <tuplet bracket="yes" placement="above" type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>39760</duration>
+      </backup>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>1</voice>
+        <type>64th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>6</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <voice>1</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>977</duration>
+      </backup>
+    </measure>
+    <measure number="3">
+      <attributes>
+        <divisions>10080</divisions>
+      </attributes>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>D</step>
+          <octave>5</octave>
+        </pitch>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>C</step>
+          <alter>1</alter>
+          <octave>5</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>157</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>256th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>F</step>
+          <alter>1</alter>
+          <octave>4</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <accidental>sharp</accidental>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>1260</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>32nd</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <rest/>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>5040</duration>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>eighth</type>
+        <notations>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>630</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>64th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>315</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>128th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>78</duration>
+        <tie type="stop"/>
+        <tie type="start"/>
+        <voice>0</voice>
+        <type>512th</type>
+        <notations>
+          <tied type="stop"/>
+          <tied type="start"/>
+        </notations>
+      </note>
+      <note>
+        <pitch>
+          <step>B</step>
+          <octave>4</octave>
+        </pitch>
+        <duration>39</duration>
+        <tie type="stop"/>
+        <voice>0</voice>
+        <type>1024th</type>
+        <notations>
+          <tied type="stop"/>
+        </notations>
+      </note>
+      <backup>
+        <duration>18112</duration>
+      </backup>
+      <backup>
+        <duration>0</duration>
+      </backup>
+      <barline location="right">
+        <bar-style>light-heavy</bar-style>
+      </barline>
+    </measure>
+  </part>
+</score-partwise>

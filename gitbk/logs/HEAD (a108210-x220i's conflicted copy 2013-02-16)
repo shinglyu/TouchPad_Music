@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 59032fc1fe792799932e8aea7150e4c23e9d6b05 a108210 <a108210@mint> 1349534294 +0800	commit (initial): init commit. Can now acquire keystorkes.
+59032fc1fe792799932e8aea7150e4c23e9d6b05 cc79f499a9c1582769ef6efe71ce16fd6eb8f19f Hermes Lyu <a108210@gmail.com> 1350233671 +0800	commit: Allow multitouch.
+cc79f499a9c1582769ef6efe71ce16fd6eb8f19f 9ac1f3486c4cdf3b7aca4a88054f14b8aa038e93 Hermes Lyu <a108210@gmail.com> 1350318227 +0800	commit: Folder cleanup. Start midi writing.
+9ac1f3486c4cdf3b7aca4a88054f14b8aa038e93 04e9411493897bbc9fa5ffd1eeb4427984440a30 Hermes Lyu <a108210@gmail.com> 1350656724 +0800	commit: Can create midi now.
+04e9411493897bbc9fa5ffd1eeb4427984440a30 a4f1fc2532d46f5f9003baa236d89b41d3ab7111 Hermes Lyu <a108210@gmail.com> 1351007488 +0800	commit: Python play ok.
+a4f1fc2532d46f5f9003baa236d89b41d3ab7111 eccc1e3593da0b10ea7fbefffaa9002d7d266f5d Hermes Lyu <a108210@gmail.com> 1351060042 +0800	commit: Finish play-record. Not tested.
+eccc1e3593da0b10ea7fbefffaa9002d7d266f5d ad518ff983a8ddee29cc7312567da5052e4ba6d4 Hermes Lyu <a108210@gmail.com> 1351071455 +0800	commit: Fixed Queue to Stack in process.py
+ad518ff983a8ddee29cc7312567da5052e4ba6d4 df9b8b1520c50118cb06913d9d5124b60b15ec32 Hermes Lyu <a108210@gmail.com> 1351150913 +0800	commit: Play and Rec Finished.
+df9b8b1520c50118cb06913d9d5124b60b15ec32 265f7920304596766b00cf9419a85b10e960a74e Hermes Lyu <a108210@gmail.com> 1360845583 +0800	commit: Rework structure. rename run_all to recordExprPerf
+265f7920304596766b00cf9419a85b10e960a74e 0c36928c3aeff28989af88c296eb8639c4679ed1 Hermes Lyu <a108210@gmail.com> 1360853053 +0800	commit: reversion done
+0c36928c3aeff28989af88c296eb8639c4679ed1 c1a08cef66210652635781ea3a70e60d3059e308 Hermes Lyu <a108210@gmail.com> 1360853136 +0800	commit: Cleanup.
+c1a08cef66210652635781ea3a70e60d3059e308 27cef510cd5f4e4dc90c50229267b33f7149c5a7 Hermes Lyu <a108210@gmail.com> 1360853504 +0800	commit: Updated README
+27cef510cd5f4e4dc90c50229267b33f7149c5a7 a614c3e45670d063e65f1d281606e9eb172284f7 Hermes Lyu <a108210@gmail.com> 1360910104 +0800	commit: Realtime play sound done
+a614c3e45670d063e65f1d281606e9eb172284f7 6b88e56e9ef68993f622e3bf5f16ec1f57994e83 Hermes Lyu <a108210@gmail.com> 1360912695 +0800	commit: Simplify record process, leave parse and gen to musicGenerator.py
+6b88e56e9ef68993f622e3bf5f16ec1f57994e83 d9274dd72e643eb90d05904acd61708f59b56d4c Hermes Lyu <a108210@gmail.com> 1360916886 +0800	commit: Open new thread when play notes, realtime feel imporved
+d9274dd72e643eb90d05904acd61708f59b56d4c 5558be7d5bbf54df7a9c1d854e8ea0114c4d7ded Hermes Lyu <a108210@gmail.com> 1360917980 +0800	commit: Allow stop during playing
+5558be7d5bbf54df7a9c1d854e8ea0114c4d7ded ef18ae7676c92dcdb7cc98fed6333c55a93e57d8 Hermes Lyu <a108210@gmail.com> 1360933063 +0800	commit: Save score alongsid performance
+ef18ae7676c92dcdb7cc98fed6333c55a93e57d8 5558be7d5bbf54df7a9c1d854e8ea0114c4d7ded Hermes Lyu <a108210@gmail.com> 1360933769 +0800	reset: moving to 5558
+5558be7d5bbf54df7a9c1d854e8ea0114c4d7ded d10513573af15839c7f90b0117b6cb02728bae61 Hermes Lyu <a108210@gmail.com> 1360934270 +0800	commit: Renamed outputfile

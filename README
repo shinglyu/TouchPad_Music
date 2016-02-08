@@ -1,3 +1,3 @@
-annotate.py
-process.py
-noEnvelopAnalysis.m
+scoreQuarantine   raw scores from KernScore.com
+scoreQuarantine2  hand picked score, pure monophonic or easy polyphonic
+scoreQuarantine3  pure monophonic score checked by util_checkPureMonophonic.py

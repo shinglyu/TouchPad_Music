@@ -1,0 +1,36 @@
+!!!OTL: 63h. Schubert, Piano Sonata in A minor, D 845, mvt. 3, mm. 1-5
+!!!OMD: Allegro vivace
+**kern	**kern	**dynam
+*staff2	*staff1	*staff1/2
+*clefF4	*clefG2	*clefG2
+*k[]	*k[]	*k[]
+*a:	*a:	*a:
+*M3/4	*M3/4	*M3/4
+*MM192	*MM192	*MM192
+8A\L	8a/L	p
+(8A\J	(8a/J	.
+=1	=1	=1
+2E\)	2e/) 2g#/ 2b/	.
+8A\L	8a/L	.
+(8A\J	(8a/J	.
+=2	=2	=2
+2E\)	2e/) 2g#/ 2b/	.
+8A\L	8a/L	.
+(8A\J	(8a/J	.
+=3	=3	=3
+4E\)	4e/) 4g#/ 4b/	.
+4A'\	4e'/ 4a'/ 4cc'/	.
+4E'\	4e'/ 4g#'/ 4b'/	.
+=4	=4	=4
+4A'\	4e'/ 4a'/ 4cc'/	.
+2GGG#/ (2GG#/	[2e/ 2b/ (2ee/	ff
+=5	=5	=5
+*	*^	*
+4AAA/ 4AA/)	4e/] 4a/ 4cc/)	2ry	.
+4r	4r	.	.
+4c\ 4e\	8cc/L	4g\	p
+.	(8cc/J	.	.
+*	*v	*v	*
+=	=	=
+*-	*-	*-
+!!!hum2abc: -q

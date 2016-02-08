@@ -1,0 +1,37 @@
+!!!COM: Schubert, Franz
+!!!OTL: Symphony No. 8
+!!!SCT: Piston 293
+!!!OMD: Andante con moto
+!!!citation: Harmony by Walter Piston.  W.W.Norton: New York; 1941.
+!!!label: Ex. 293.  Schubert -- <i>Symphony no. 8</i>
+!!!chapter: Chapter 14 (Secondary Dominants)
+!!!page: 155
+!!!ENC: Craig Stuart Sapp
+**kern	**kern	**root	**harm
+*staff2	*staff1	*staff2	*staff2
+*clefF4	*clefG2	*clefF4	*
+*M3/8	*M3/8	*M3/8	*M3/8
+*MM110	*MM110	*MM110	*MM110
+*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]	*k[f#c#g#d#]
+*E:	*E:	*E:	*E:
+8E' 8G#'	4.g# 4.b 4.e 4.gg#	4.EE	I
+8F#'	.	.	.
+8E'	.	.	.
+=	=	=	=
+8D#'	4.cc# 4.dd# 4.ff## 4.aa#	4.DD#	V7/III
+8C#'	.	.	.
+8AA#'	.	.	.
+=	=	=	=
+8GG#'	4b 4dd# 4gg# 4bb	4GG#	iii
+8r	.	.	.
+*	*^	*	*
+8AAn'	8a 8cc#	16aan	8FF#	iib
+.	.	16ff#	.	.
+=	=	=	=	=
+8BB'	4g# 4b	4gg#	4EE	Ic
+8r	.	.	.	.
+8BBB'	8a 8b	16ff#	8BB	V7
+.	.	16dd#	.	.
+=	=	=	=	=
+*	*v	*v	*	*
+*-	*-	*-	*-
